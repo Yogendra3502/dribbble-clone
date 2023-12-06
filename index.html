@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-par1">
+           
+           <img src="data:image/png;base64,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" alt="">
+           <h2>Find talent</h2>
+           <h2>For disigners</h2>
+           <h2>inspiration</h2>
+           <h2>Learn more</h2>
+           <h2>Go pro</h2>
+        </div>
+        <div class="nav-par2">
+            <button>Log in</button>
+            <button class="sign">Sign up</button>
+        </div>
+    </div>
+    <div class="center">
+        <video autoplay loop muted src="https://cdn.dribbble.com/uploads/39417/original/49dbf46eae15d227fc95a69cee31251e.mp4?1657824906"></video>
+        <div class="overlay">
+            <div class="elemet1">
+            <h5>Discover</h5>
+            <h5>Animation</h5>
+            <h5>Branding</h5>
+            <h5>illustration</h5>
+            <h5>Print</h5>
+            <h5>Mobile</h5>
+            <h5>Product disign</h5>
+            <h5>Typoghtaphy</h5>
+            <h5>Web Disgn</h5>
+            </div>
+             <h1>Explore the world’s leading 
+            <br>design portfolios</h1>
+            <p>Millions of designers and agencies around the world showcase their portfolio work <br> on Dribbble - the home to the world’s best design and creative professionals.</p>
+            <input type="text" placeholder="search">
+            <div class="part2">
+                <h5>Trending Seaches</h5>
+                <button>Landing Page</button>
+                <button>Ios</button>
+                <button>Food</button>
+                <button>landing Page</button>
+                <button>Uxdesign</button>
+                <button>Web Design</button>
+            </div>
+            <h6>&Yogi bana created frontend page</h6>
+     </div>
+    </div>
+    <div class="center2">
+        <div class="popular">
+            <button>popular</button>
+            <button>Filtter</button>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8806123/file/original-01bb37862d943aa09b812c7b95ceba4c.png?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <h4>Home-leon ult..</h4>
+                <i class="ri-heart-3-line"></i>
+                <i class="ri-bookmark-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8803751/file/original-5fefbce84d2f95a52c5dbb8e3c7c8cc3.png?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <h4>RUBO logo type</h4>
+                <i class="ri-heart-3-line"></i>
+                <i class="ri-bookmark-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8806394/file/original-ad6ad13b647e1061cc748d8b1d2be216.png?resize=1024x767" alt="">
+            <div class="bottom">
+                <h4>Ultimate Logofolio Featured Design</h4>
+                <i class="ri-heart-3-line"></i>
+                <i class="ri-bookmark-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8811796/file/original-aa66f2bd4bf3e0d71cff719ca866efb6.png?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <h4>LEAP providing</h4>
+                <i class="ri-heart-3-line"></i>
+                <i class="ri-bookmark-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8801318/file/original-82fcf3e0d808c289c3f9599c035c6491.jpg?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <h4>GREATINGS!</h4>
+                <i class="ri-heart-3-line"></i>
+                <i class="ri-bookmark-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8803096/file/original-358ba6a94cac676ee2eb49c3893bb469.png?crop=0x0-1600x1200&resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <i class="ri-bookmark-line"></i>
+                <h4>WORD on fire image ...</h4>
+                <i class="ri-heart-3-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8811477/file/original-a8c9285db93723b8aeed374f500249b4.png?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <i class="ri-bookmark-line"></i>
+                <h4>PLAINTHING ST.....</h4>
+                <i class="ri-heart-3-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8801169/file/original-3ff3d74250306964f64bd61be08d52db.png?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <i class="ri-bookmark-line"></i>
+                <h4>Timefy UI-UX ...</h4>
+                <i class="ri-heart-3-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8803052/file/original-2a257a3859e7fb31a96325b0beeb5325.gif" alt="">
+            <div class="bottom">
+                <i class="ri-bookmark-line"></i>
+                <h4>Lorena G</h4>
+                <i class="ri-heart-3-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8809879/file/original-f316fd975d9c91a9bd32dbfaa8e4c28c.png?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <i class="ri-bookmark-line"></i>
+                <h4>gaming Program</h4>
+                <i class="ri-heart-3-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8805904/file/original-c2d63769cee8a337acf5948dad107092.gif" alt="">
+            <div class="bottom">
+                <i class="ri-bookmark-line"></i>
+                <h4>Finance Mobile</h4>
+                <i class="ri-heart-3-line"></i>
+            </div>
+        </div>
+        <div class="box1">
+            <img src="https://cdn.dribbble.com/userupload/8796315/file/original-65255e07e01ec15310a62639aba9cf68.jpg?resize=320x240&vertical=center" alt="">
+            <div class="bottom">
+                <i class="ri-bookmark-line"></i>
+                <h4>REOLVE altIMATE</h4>
+                <i class="ri-heart-3-line"></i>
+            </div>
+        </div>
+    <div class="popular2">
+        <button id="sign">sign up to continue</button>
+        <button>or sign in</button>
+    </div>
+    </div>
+    <div class="dribbble">
+        <div class="a"><img src="data:image/png;base64,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" alt="">
+            <p>Dribbble is the world’s leading community for creatives to share, grow, and get hired.</p>
+            <div class="b">
+                <i class="ri-dribbble-line"></i>
+                <i class="ri-facebook-fill"></i>
+                <i class="ri-twitter-line"></i>
+                <i class="ri-instagram-fill"></i>
+            </div>       
+        </div>
+        <div class="c">
+            <h2>For designers</h2>
+            <h4>Go Pro!</h4>
+            <h4>Explore design work</h4>
+            <h4>Design blog</h4>
+            <h4>Overtime podcast</h4>
+            <h4>Playoffs</h4>
+            <h4>Code of conduct</h4>
+        </div>
+        <div class="d">
+           <h2> Hire designers</h2>
+           <h4>Post a job opening</h4>
+           <h4>Post a freelance project</h4>
+           <h4>Search for designers</h4>
+           <br>
+           <h4>Brands</h4>
+           <h4>Advertise with us</h4>
+        </div>
+        <div class="e">
+            <h2>Company</h2>
+            <h4>About</h4>
+            <h4>careers</h4>
+            <h4>support</h4>
+            <h4>media kit</h4>
+            <h4>testimonials</h4>
+            <h4>api</h4>
+            <h4>term of service</h4>
+            <h4>privacy policy</h4>
+            <h4>Cookie policy</h4>
+        </div>
+        <div class="f">
+           <h2>Directories</h2>   
+           <h4>Desigmn job</h4>
+           <h4>Designer for hire</h4>
+           <h4>Freelance designerd for hire</h4>
+           <h4>tags</h4>
+           <h4>Places</h4>
+           <h4>design assets</h4>
+           <h4>cretive market</h4>
+           <h4>fontspring</h4>
+           <h4>Font squirrel</h4>
+        </div>
+        <div class="g">
+           <h2>Design Resources</h2>
+           <h4>Freelancing</h4>
+           <h4>Design Hiring</h4>
+           <h4>Design portfolio</h4>
+           <h4>Design Education</h4>
+           <h4>Creative process</h4>
+           <h4> Design Industry Trends</h4>
+        </div>
+         
+    </div>
+
+</body>
+</html>
